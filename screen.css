@@ -2,3 +2,62 @@
 a.active {
     font-weight: bold;
 }
+
+/* Layout reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Header — HEX */
+header {
+  background-color: #2A9D8F; /* HEX */
+  padding: 20px;
+}
+
+#company {
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Hero — RGB */
+.hero {
+  padding: 40px 20px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(0, 0, 0); /* RGB */
+  margin: 0;
+}
+
+/* Two-column section — Named color */
+.two-column {
+  display: flex;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.left img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.right h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 0;
+  color: black; /* named color */
+}
+
+.right p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black; /* named color */
+}
