@@ -9,12 +9,20 @@ body {
   font-family: Arial, sans-serif;
   background-color: #FFFFFF;
   color: #000000;
+  line-height: 1.5;
+}
+
+/* A centered content container for consistent layout */
+main, header {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Header — HEX */
 header {
   background-color: #2A9D8F; /* HEX */
-  padding: 20px;
+  padding: 20px 20px;
 }
 
 #company {
@@ -26,7 +34,7 @@ header {
 
 /* Hero — RGB */
 .hero {
-  padding: 40px 20px;
+  padding: 60px 0;
 }
 
 .hero h2 {
@@ -34,30 +42,34 @@ header {
   font-weight: 400;
   color: rgb(0, 0, 0); /* RGB */
   margin: 0;
+  max-width: 700px;
 }
 
 /* Two-column section — Named color */
 .two-column {
   display: flex;
   gap: 40px;
-  padding: 40px 20px;
+  padding: 60px 0;
+  align-items: flex-start;
 }
 
 .left img {
   width: 100%;
-  max-width: 300px;
+  max-width: 280px;
   height: auto;
+  border-radius: 4px;
 }
 
 .right h3 {
   font-size: 32px;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 10px;
   color: black; /* named color */
 }
 
 .right p {
   font-size: 16px;
-  line-height: 1.5;
   color: black; /* named color */
+  margin: 0;
 }
